@@ -1,0 +1,54 @@
+.job-tool-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-tool {
+  color: var(--desaturated-dark-cyan);
+  background-color: var(--light-grayish-cyan-filter);
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+
+  @media screen and (max-width: 600px) {
+    font-size: 18px;
+  }
+
+  &.filter {
+    border-radius: 5px 0 0 5px;
+    cursor: default;
+    animation: fadeInAnimation 0.5s linear;
+  }
+
+  &:not(.filter):not(.disabled):hover {
+    background-color: var(--desaturated-dark-cyan);
+    color: var(--light-grayish-cyan-filter);
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+  }
+}
+
+.job-tool-close-container {
+  background-color: var(--desaturated-dark-cyan);
+  border-radius: 0 5px 5px 0;
+  height: 30.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 30px;
+  animation: fadeInAnimation 0.5s linear;
+
+  &:hover {
+    background-color: var(--very-dark-grayish-cyan);
+  }
+
+  & svg {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,22 @@
+header {
+  background-color: var(--desaturated-dark-cyan);
+  & img {
+    background-image: url("../../assets/svgs/bg-header-desktop.svg");
+    width: 100%;
+    height: 155px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 600px) {
+      background-image: url("../../assets/svgs/bg-header-mobile.svg");
+    }
+  }
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 600px) {
+    padding: 0 25px;
+  }
+}
