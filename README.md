@@ -22,9 +22,10 @@ Users should be able to:
 ### Screenshot
 Web:
 
-![Uploading Screenshot 2023-10-14 at 15.32.23.png…]()
+<img width="1488" alt="Screenshot 2023-10-14 at 15 32 23" src="https://github.com/itsyanQA/fm-job-listings/assets/95849693/7b7d2918-9519-4840-89ca-664d14023724">
 
 Mobile:
+
 <img width="345" alt="Screenshot 2023-10-14 at 15 32 45" src="https://github.com/itsyanQA/fm-job-listings/assets/95849693/b9db224c-d8bc-48e9-9137-69a3a980cbfb">
 
 ### Built with
